@@ -1,0 +1,51 @@
+// variables
+$button-color: #c85790;
+$base-color: #f5d7d7;
+
+html, body, #generate-joke-btn {
+    font-family: Unbounded;
+    background-color: $base-color;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 100px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #joke-section {
+        font-size: 18px;
+        text-align: center;
+        width: 70%;
+        padding: 24px;
+        #punchline {
+            font-weight: bold;
+        }
+    }
+    #btn-box {
+        height: 200px;
+        #generate-joke-btn {
+            height: 50px;
+            width: 250px;
+            font-size: 20px;
+            border: none;
+            border-radius: 12px;
+            background-color: $button-color;
+            color: white;
+            box-shadow: 0px 5px #666666;
+            &:hover {
+                cursor: pointer;
+                opacity: .8;
+            }
+            &:active {
+                margin-top: 8px;
+                box-shadow: none;
+            }
+        }
+    }
+}
+  

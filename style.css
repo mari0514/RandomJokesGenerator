@@ -1,0 +1,65 @@
+html, body, #generate-joke-btn {
+  font-family: Unbounded;
+  background-color: #f5d7d7;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 100px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container #joke-section {
+  font-size: 18px;
+  text-align: center;
+  width: 70%;
+  padding: 24px;
+}
+
+.container #joke-section #punchline {
+  font-weight: bold;
+}
+
+.container #btn-box {
+  height: 200px;
+}
+
+.container #btn-box #generate-joke-btn {
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #c85790;
+  color: white;
+  -webkit-box-shadow: 0px 5px #666666;
+          box-shadow: 0px 5px #666666;
+}
+
+.container #btn-box #generate-joke-btn:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.container #btn-box #generate-joke-btn:active {
+  margin-top: 8px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
